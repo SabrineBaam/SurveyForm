@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700&display=swap');
+*{
+  box-sizing:border-box;
+}
+body{
+  font-family:'Poppins', sans-serif;
+  font-size: 18px;
+  background-color:#9980FA;
+  margin:0;
+  text-align:center;
+}
+h1{
+  margin-bottom:0;
+}
+h1 + p{
+  margin-top:0;
+}
+form{
+  background-color:#fff;
+  max-width:550px;
+  margin:40px auto;
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.4);
+  border-radius:2px;
+  padding:30px 20px;
+}
+.form-control {
+  margin-bottom:20px;
+  text-align:left;
+}
+.form-control label{
+ display:block;
+  margin-bottom: 6px;
+}
+.form-control input{
+  border: 1px solid #777;
+  border-radius: 4px;
+  padding:10px;
+  font-family:inherit;
+  display:block;
+  width:100%;
+}
+.form-control select{
+  border: 1px solid #777;
+  border-radius: 4px;
+  padding:10px;
+  font-family:inherit;
+  display:block;
+  width:100%;
+}
+.form-control textarea{
+  border: 1px solid #777;
+  border-radius: 4px;
+  padding:10px;
+  font-family:inherit;
+  display:block;
+  width:100%;
+}
+.form-control input[type="radio"]{
+  display:inline-block;
+  width:auto;
+}
+.form-control input[type="checkbox"]{
+  display:inline-block;
+  width:auto;
+}
+button{
+  background-color:#05c46b;
+  width:100%;
+  padding:10px;
+  border-radius: 4px;
+  padding:10px;
+  font-family: inherit;
+  font-size:16px;
+}

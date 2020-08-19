@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h1 id="title">Survey Form (FreeCodeCamp)</h1>
+    <p id="description"><i>Thank you for taking the survey</i></p>
+    <form id="survey-form">
+      <div class="form-control">
+        <label for="name" id="name-label" >Name</label>
+        <input type="text" id="name" placeholder="Entere your name here" required/>
+      </div>
+      <div class="form-control">
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" placeholder="Enter your email here" required/>
+      </div>
+      <div class="form-control">
+        <label for="age" id="number-label">Age</label>
+        <input type="number" id="number" placeholder="Enter your age here" required min="0" max="200"/>
+      </div>
+      <div class="form-control">
+        <label for="role" id="role-label">Which option best describes your current role?</label>
+        <select name="role" id="dropdown">
+          <option value="student">Student</option>
+          <option value="fulltimejob">Full Time Job</option>
+          <option value="fulltimelearner">Full Time Learner</option>
+          <option value="prefernottosay">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+        </div>
+        <br>
+         <div class="form-control">
+        <label>Would you recommend FreeCodeCamp to a friend</label>
+        <label for="recommend-1" > <input type="radio" id="recommend-1" name="recommend" value="recommend-1"/>Definitely</label>
+           <label for="recommend-2"> <input type="radio" id="recommend-2" name="recommend" value="recommend-2"/>Maybe</label>
+           <label for="recommend-3"> <input type="radio" id="recommend-3" name="recommend" value="recommend-3"/>Not Sure</label>
+      </div>
+      <br>
+       <div class="form-control">
+        <label for="feature" id="label-feature">What is your favorite feature?</label>
+        <select name="feature" id="feature">
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="opensource">Open Source</option>
+        </select>
+        </div>
+        <br>
+      <div class="form-control">
+        <label>What would you like to see improved? <small>(Check all that apply)</small></label>
+        <label for="improved-1"> <input type="checkbox" id="improve-1" name="improve-1" value="improve-1"/>Front-end Projects</label>
+        <label for="improved-2"><input type="checkbox" id="improve-2" name="improve-2" value="improve-2"/>Back-end Projects</label>
+        <label for="improved-3"><input type="checkbox" id="improve-3" name="improve-3" value="improve-3"/>Data Visualizitaion</label>
+        <label for="improved-4"><input type="checkbox" id="improve-1" name="improve-4" value="improve-4"/>Challenges</label>
+        <label for="improved-5"><input type="checkbox" id="improve-1" name="improve-5" value="improve-5"/>Open Source Community</label>
+        <label for="improved-6"><input type="checkbox" id="improve-1" name="improve-6" value="improve-6"/>Gitter help rooms</label>
+        <label for="improved-7"><input type="checkbox" id="improve-1" name="improve-7" value="improve-7"/>Videos</label>
+        <label for="improved-8"><input type="checkbox" id="improve-1" name="improve-8" value="improve-8"/>City Meetups</label>
+        <label for="improved-9"><input type="checkbox" id="improve-1" name="improve-9" value="improve-9"/>Wiki</label>
+        <label for="improved-10"><input type="checkbox" id="improve-1" name="improve-10" value="improve-10"/>Forms</label>
+        <label for="improved-11"><input type="checkbox" id="improve-1" name="improve-11" value="improve-11"/>Additional Courses</label>
+      </div>
+      <div class="form-control">
+        <label for="comments">Any Comments or  suggestions?</label>
+        <textarea name="comments" id="comments" placeholder="Enter your comments here..."></textarea>
+      </div>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
+
